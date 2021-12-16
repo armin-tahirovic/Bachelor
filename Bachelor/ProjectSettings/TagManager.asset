@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: [AndGate, LightButtonOnePush, LightButtonTwoPush, LightButtonThreePush, LightButtonFourPush,
+    OrGate, BlueBall, RedBall, GreenBall, BlueBox, RedBox, GreenBox, AndOneTag, OrOneTag,
+    AndTwoTag, AndTwoGate, Pc_Ram, Pc_Motherboard, LedLamp1, LedLamp2, LedLamp3, LedLamp4,
+    FinalLight, Pc_Processor, PC_Graphics, PC_Cooler, PC_Power, PC_HDD, RAM_Socket,
+    HDD_Socket, Motherboard_Socket, Processor_Socket, Power_Socket, Graphics_Socket,
+    Cooler_Socket, AndOneTag, OrOneTag, AndTwoTag, AndTwoGate, Pc_Ram, Pc_Motherboard,
+    LedLamp1, LedLamp2, LedLamp3, LedLamp4, FinalLight, Pc_Processor, PC_Graphics,
+    PC_Cooler, PC_Power, PC_HDD, RAM_Socket, HDD_Socket, Motherboard_Socket, Processor_Socket,
+    Power_Socket, Graphics_Socket, Cooler_Socket, End_PC]
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Grabbable
+  - PCSocket
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,2102 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.1348; Version 2004; 64bit' Language: 'da' Physical Memory: 7888 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/armin/Bachelor
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50380
+Successfully changed project path to: C:/Users/armin/Bachelor
+C:/Users/armin/Bachelor
+Using Asset Import Pipeline V2.
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Refreshing native plugins compatible for Editor in 158.69 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.22 ms.
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/armin/Bachelor/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   
+    VRAM:     128 MB
+    Driver:   10.18.10.4358
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015371 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 219.52 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.760 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3761ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1279ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (297ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (688ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (220ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.051370 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 130.01 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.66.0
+Mono: successfully reloaded assembly
+- Completed reload, in  2.211 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2213ms)
+		BeginReloadAssembly (336ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1745ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (565ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (672ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (368ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.3 MB.
+System memory in use after: 126.4 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3228.
+Total: 5.175400 ms (FindLiveObjects: 0.467900 ms CreateObjectMapping: 0.354700 ms MarkObjects: 4.225500 ms  DeleteObjects: 0.124600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/LogicGame/ControlLight.cs
+  artifactKey: Guid(895705c2a6e86cc4993e87b4b995e4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LogicGame/ControlLight.cs using Guid(895705c2a6e86cc4993e87b4b995e4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c041bfbeae8196287cea173f056bfaad') in 0.084784 seconds 
+  Import took 0.110482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.419625 seconds.
+  path: Assets/Scripts/LogicGame/ControlLightFour.cs
+  artifactKey: Guid(cd4f5e0119d6a47479c397b4dfdd9ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LogicGame/ControlLightFour.cs using Guid(cd4f5e0119d6a47479c397b4dfdd9ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0efa1c8c38047df0ae712e3b9bcf09') in 0.017248 seconds 
+  Import took 0.028186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.855838 seconds.
+  path: Assets/Scripts/LogicGame/CheckAndGate.cs
+  artifactKey: Guid(8711072d727bfdc489ce0b2d1755dbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LogicGame/CheckAndGate.cs using Guid(8711072d727bfdc489ce0b2d1755dbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8089236ac308dc712bd37da5d92346') in 0.015018 seconds 
+  Import took 0.025963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.723795 seconds.
+  path: Assets/Scripts/LogicGame/ButtonThreeAndFour.cs
+  artifactKey: Guid(fcea5029cc324a64697325b2cb3e0eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LogicGame/ButtonThreeAndFour.cs using Guid(fcea5029cc324a64697325b2cb3e0eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e01702d108fdd5c208205997f5bf83') in 0.016382 seconds 
+  Import took 0.028700 seconds .
+
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Registering precompiled user dll's ...
+Registered in 1.204608 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.08 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.487 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2487ms)
+		BeginReloadAssembly (259ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (2088ms)
+			LoadAssemblies (237ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (724ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (807ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (246ms)
+				ProcessInitializeOnLoadAttributes (488ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 2730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.1 MB.
+System memory in use after: 119.4 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3231.
+Total: 7.249000 ms (FindLiveObjects: 0.504000 ms CreateObjectMapping: 0.397500 ms MarkObjects: 6.280800 ms  DeleteObjects: 0.064000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Registering precompiled user dll's ...
+Registered in 0.026740 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.216 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3217ms)
+		BeginReloadAssembly (257ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (2856ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (676ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (1728ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (274ms)
+				ProcessInitializeOnLoadAttributes (1309ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (110ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.22 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 2730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.2 MB.
+System memory in use after: 119.4 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3234.
+Total: 158.804500 ms (FindLiveObjects: 8.971600 ms CreateObjectMapping: 0.572800 ms MarkObjects: 149.168500 ms  DeleteObjects: 0.086900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Registering precompiled user dll's ...
+Registered in 0.011440 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.419 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2422ms)
+		BeginReloadAssembly (269ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (2031ms)
+			LoadAssemblies (328ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (634ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (129ms)
+			SetupLoadedEditorAssemblies (637ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (388ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.2 MB.
+System memory in use after: 119.4 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3237.
+Total: 5.003200 ms (FindLiveObjects: 0.497600 ms CreateObjectMapping: 0.325700 ms MarkObjects: 4.131400 ms  DeleteObjects: 0.046400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 401.137918 seconds.
+  path: Assets/Scripts/LogicGame/ButtonThreeAndFour.cs
+  artifactKey: Guid(fcea5029cc324a64697325b2cb3e0eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LogicGame/ButtonThreeAndFour.cs using Guid(fcea5029cc324a64697325b2cb3e0eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd67f0aa0917d128f1e7d8b3a378941') in 0.030344 seconds 
+  Import took 0.039167 seconds .
+
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Registering precompiled user dll's ...
+Registered in 0.009996 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.363 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2364ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (2064ms)
+			LoadAssemblies (170ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (909ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (615ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (229ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.2 MB.
+System memory in use after: 119.5 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3240.
+Total: 4.945200 ms (FindLiveObjects: 0.438200 ms CreateObjectMapping: 0.321800 ms MarkObjects: 4.140800 ms  DeleteObjects: 0.042500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Registering precompiled user dll's ...
+Registered in 0.043129 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.23 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.926 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2927ms)
+		BeginReloadAssembly (293ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (111ms)
+		EndReloadAssembly (2522ms)
+			LoadAssemblies (181ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (798ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (1243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (603ms)
+				ProcessInitializeOnLoadAttributes (594ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.3 MB.
+System memory in use after: 119.5 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3243.
+Total: 5.432500 ms (FindLiveObjects: 0.522700 ms CreateObjectMapping: 0.332100 ms MarkObjects: 4.524300 ms  DeleteObjects: 0.051300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 18.39 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.4 MB.
+System memory in use after: 66.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3243.
+Total: 5.371900 ms (FindLiveObjects: 0.462800 ms CreateObjectMapping: 0.335900 ms MarkObjects: 4.521200 ms  DeleteObjects: 0.049900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 51.39 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.5 MB.
+System memory in use after: 66.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3243.
+Total: 7.199500 ms (FindLiveObjects: 0.938700 ms CreateObjectMapping: 0.357200 ms MarkObjects: 5.849100 ms  DeleteObjects: 0.051900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6253.299559 seconds.
+  path: Assets/Scenes/EndScene.unity
+  artifactKey: Guid(aac235a4eab2a3443bf246fc9d8473ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EndScene.unity using Guid(aac235a4eab2a3443bf246fc9d8473ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e53fdfbbd7a6472e93a5c7dd80e099') in 0.934000 seconds 
+  Import took 1.361855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.972840 seconds.
+  path: Assets/Scenes/LoginScene.unity
+  artifactKey: Guid(a169cf1305b4a8540b7ff9d3ad3c1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LoginScene.unity using Guid(a169cf1305b4a8540b7ff9d3ad3c1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76a1ed83777ef116861367e02191f0e') in 0.409415 seconds 
+  Import took 0.525826 seconds .
+
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Registering precompiled user dll's ...
+Registered in 0.042948 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 8.65 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.577 seconds
+Domain Reload Profiling:
+	ReloadAssembly (12680ms)
+		BeginReloadAssembly (1498ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (370ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (557ms)
+		EndReloadAssembly (10292ms)
+			LoadAssemblies (507ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3325ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (1035ms)
+			SetupLoadedEditorAssemblies (2240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (9ms)
+				BeforeProcessingInitializeOnLoad (448ms)
+				ProcessInitializeOnLoadAttributes (1487ms)
+				ProcessInitializeOnLoadMethodAttributes (221ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (276ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 11.66 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 9.43 ms.
+Unloading 2730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.4 MB.
+System memory in use after: 119.6 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3246.
+Total: 163.423800 ms (FindLiveObjects: 29.182800 ms CreateObjectMapping: 0.772300 ms MarkObjects: 132.996800 ms  DeleteObjects: 0.465700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Registering precompiled user dll's ...
+Registered in 0.053488 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.48 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.278 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3305ms)
+		BeginReloadAssembly (1229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (103ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (2ms)
+			CreateAndSetChildDomain (609ms)
+		EndReloadAssembly (1897ms)
+			LoadAssemblies (296ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (599ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (685ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (453ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.95 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 2730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.4 MB.
+System memory in use after: 119.6 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3249.
+Total: 26.734000 ms (FindLiveObjects: 0.485100 ms CreateObjectMapping: 0.334500 ms MarkObjects: 25.832400 ms  DeleteObjects: 0.078900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 24.57 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.6 MB.
+System memory in use after: 66.8 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3249.
+Total: 6.490200 ms (FindLiveObjects: 0.807100 ms CreateObjectMapping: 0.332100 ms MarkObjects: 5.298000 ms  DeleteObjects: 0.050800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10119.380927 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36622883efe4dd53c8d496d8cfbdf7c9') in 0.035113 seconds 
+  Import took 0.047550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 163.027158 seconds.
+  path: Assets/Scripts/LogicGame/ControlLightOne.cs
+  artifactKey: Guid(1d8695a47713c9c49a277ead9fbc8bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LogicGame/ControlLightOne.cs using Guid(1d8695a47713c9c49a277ead9fbc8bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e75c576ed98cc472f3f0fef590db6b') in 0.022174 seconds 
+  Import took 0.032979 seconds .
+
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Registering precompiled user dll's ...
+Registered in 0.078711 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.72 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.476 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8478ms)
+		BeginReloadAssembly (277ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (7879ms)
+			LoadAssemblies (304ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2675ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (726ms)
+			SetupLoadedEditorAssemblies (2612ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (854ms)
+				ProcessInitializeOnLoadAttributes (1603ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (47ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (42ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.98 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.33 ms.
+Unloading 2730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.4 MB.
+System memory in use after: 119.6 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3252.
+Total: 6.500700 ms (FindLiveObjects: 0.650800 ms CreateObjectMapping: 0.516600 ms MarkObjects: 5.261300 ms  DeleteObjects: 0.069200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 328.690231 seconds.
+  path: Assets/Scripts/LogicGame/AndOneSecondSocket.cs
+  artifactKey: Guid(f0b4b485b3b11c3458eca44d360457ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LogicGame/AndOneSecondSocket.cs using Guid(f0b4b485b3b11c3458eca44d360457ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5cdd8743c87da6e3673f8fa4fe6bde') in 0.022391 seconds 
+  Import took 0.032971 seconds .
+
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Registering precompiled user dll's ...
+Registered in 0.020166 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.75 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.497 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3497ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (3097ms)
+			LoadAssemblies (229ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1215ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (164ms)
+			SetupLoadedEditorAssemblies (982ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (350ms)
+				ProcessInitializeOnLoadAttributes (572ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.4 MB.
+System memory in use after: 119.6 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3255.
+Total: 5.567600 ms (FindLiveObjects: 0.454900 ms CreateObjectMapping: 0.319400 ms MarkObjects: 4.745400 ms  DeleteObjects: 0.045500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Registering precompiled user dll's ...
+Registered in 0.010875 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.075 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2076ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1747ms)
+			LoadAssemblies (192ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (642ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (540ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (347ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.4 MB.
+System memory in use after: 119.6 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3258.
+Total: 4.392600 ms (FindLiveObjects: 0.299800 ms CreateObjectMapping: 0.139700 ms MarkObjects: 3.898300 ms  DeleteObjects: 0.051900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Script is not up to date after domain reload: guid(8c2fd03f9b59d3944a1a7912d07500a9) path("Assets/Scripts/LogicGame/AndTwoThirdSocket.cs") state(2)
+Script is not up to date after domain reload: guid(4471bfb3ddcea584582bcae3153b2b1b) path("Assets/Scripts/LogicGame/AndOneThirdSocket.cs") state(2)
+Registering precompiled user dll's ...
+Registered in 0.014581 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.691 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3692ms)
+		BeginReloadAssembly (398ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (3128ms)
+			LoadAssemblies (614ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (804ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (141ms)
+			SetupLoadedEditorAssemblies (820ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (558ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(8c2fd03f9b59d3944a1a7912d07500a9) path("Assets/Scripts/LogicGame/AndTwoThirdSocket.cs") state(2)
+Script is not up to date after domain reload: guid(4471bfb3ddcea584582bcae3153b2b1b) path("Assets/Scripts/LogicGame/AndOneThirdSocket.cs") state(2)
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.48 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 2728 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.4 MB.
+System memory in use after: 119.6 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3259.
+Total: 6.932200 ms (FindLiveObjects: 0.437200 ms CreateObjectMapping: 0.318800 ms MarkObjects: 6.100700 ms  DeleteObjects: 0.073100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Registering precompiled user dll's ...
+Registered in 0.013421 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.004 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2004ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1686ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (604ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (533ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (342ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.4 MB.
+System memory in use after: 119.6 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3264.
+Total: 5.665600 ms (FindLiveObjects: 0.922500 ms CreateObjectMapping: 0.383300 ms MarkObjects: 4.314000 ms  DeleteObjects: 0.043900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Registering precompiled user dll's ...
+Registered in 0.016641 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.68 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.81 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.538 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3539ms)
+		BeginReloadAssembly (226ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (3162ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (839ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (178ms)
+			SetupLoadedEditorAssemblies (1177ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (327ms)
+				ProcessInitializeOnLoadAttributes (768ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.39 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 2730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.5 MB.
+System memory in use after: 119.7 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3267.
+Total: 14.089100 ms (FindLiveObjects: 0.915500 ms CreateObjectMapping: 6.326400 ms MarkObjects: 6.580100 ms  DeleteObjects: 0.262000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Registering precompiled user dll's ...
+Registered in 0.012642 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.08 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.976 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2979ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (2608ms)
+			LoadAssemblies (191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (698ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (159ms)
+			SetupLoadedEditorAssemblies (1037ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (307ms)
+				ProcessInitializeOnLoadAttributes (676ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.5 MB.
+System memory in use after: 119.8 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3270.
+Total: 5.022600 ms (FindLiveObjects: 0.429700 ms CreateObjectMapping: 0.429000 ms MarkObjects: 4.113800 ms  DeleteObjects: 0.048200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 24.23 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.7 MB.
+System memory in use after: 66.9 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3270.
+Total: 10.583700 ms (FindLiveObjects: 4.513700 ms CreateObjectMapping: 0.356600 ms MarkObjects: 5.626500 ms  DeleteObjects: 0.083700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 967.243432 seconds.
+  path: Assets/Scripts/LogicGame/ControlLightThree.cs
+  artifactKey: Guid(17619e02293ac5047841a860f99cd28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LogicGame/ControlLightThree.cs using Guid(17619e02293ac5047841a860f99cd28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd666a29f22287d1d239b1faa6194fd3c') in 0.037234 seconds 
+  Import took 0.078278 seconds .
+
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 30.79 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.7 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3270.
+Total: 95.638500 ms (FindLiveObjects: 0.455600 ms CreateObjectMapping: 0.320200 ms MarkObjects: 94.753700 ms  DeleteObjects: 0.105900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 693.514701 seconds.
+  path: Assets/Scripts/PauseMenu.cs
+  artifactKey: Guid(de8fae399180334448b13c7a3ca937a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PauseMenu.cs using Guid(de8fae399180334448b13c7a3ca937a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fd64ce11d235c4ea6d5f33fedc9d7c') in 0.029569 seconds 
+  Import took 0.051048 seconds .
+
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 121.22 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.35 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.7 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3270.
+Total: 23.399200 ms (FindLiveObjects: 1.520500 ms CreateObjectMapping: 0.967900 ms MarkObjects: 20.762500 ms  DeleteObjects: 0.141700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 21.76 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.7 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3270.
+Total: 6.515600 ms (FindLiveObjects: 0.530600 ms CreateObjectMapping: 0.330900 ms MarkObjects: 5.567200 ms  DeleteObjects: 0.084800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Registering precompiled user dll's ...
+Registered in 0.033074 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.97 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.180 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6437ms)
+		BeginReloadAssembly (1766ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (360ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (456ms)
+		EndReloadAssembly (4217ms)
+			LoadAssemblies (553ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (700ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (151ms)
+			SetupLoadedEditorAssemblies (694ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (202ms)
+				ProcessInitializeOnLoadAttributes (409ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.6 MB.
+System memory in use after: 119.8 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3273.
+Total: 4.926600 ms (FindLiveObjects: 0.337000 ms CreateObjectMapping: 0.139900 ms MarkObjects: 4.379000 ms  DeleteObjects: 0.067700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 97457.176858 seconds.
+  path: Assets/Materials/New Material 6.mat
+  artifactKey: Guid(1788daf68b9128c48bc2ed251788d887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 6.mat using Guid(1788daf68b9128c48bc2ed251788d887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8ad53e5d35bbec5b507996726d60d7') in 1.310268 seconds 
+  Import took 1.538552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.749959 seconds.
+  path: Assets/Materials/New Material 7.mat
+  artifactKey: Guid(3f633bdf691cd764a8716d7ac6ae6278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 7.mat using Guid(3f633bdf691cd764a8716d7ac6ae6278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c113ac1810eab4b069169d6128c33e85') in 0.045131 seconds 
+  Import took 0.054756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.821965 seconds.
+  path: Assets/Materials/New Material 6.mat
+  artifactKey: Guid(1788daf68b9128c48bc2ed251788d887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 6.mat using Guid(1788daf68b9128c48bc2ed251788d887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6dbeb62a1665e330a87ee2d17d903a6') in 0.044358 seconds 
+  Import took 0.056503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Materials/New Material 7.mat
+  artifactKey: Guid(3f633bdf691cd764a8716d7ac6ae6278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 7.mat using Guid(3f633bdf691cd764a8716d7ac6ae6278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1665e2eb6364af63f918d61633766a') in 0.045149 seconds 
+  Import took 0.058743 seconds .
+
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1962.29 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.1 MB.
+System memory in use after: 70.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3313.
+Total: 223.313800 ms (FindLiveObjects: 0.564300 ms CreateObjectMapping: 0.315000 ms MarkObjects: 222.382300 ms  DeleteObjects: 0.049800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Registering precompiled user dll's ...
+Registered in 0.372548 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.433 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3435ms)
+		BeginReloadAssembly (649ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (389ms)
+		EndReloadAssembly (2671ms)
+			LoadAssemblies (301ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (729ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (216ms)
+			SetupLoadedEditorAssemblies (938ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (317ms)
+				ProcessInitializeOnLoadAttributes (552ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.92 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 2730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.8 MB.
+System memory in use after: 123.0 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3316.
+Total: 6.675900 ms (FindLiveObjects: 0.426700 ms CreateObjectMapping: 0.185700 ms MarkObjects: 5.990400 ms  DeleteObjects: 0.070200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 186.66 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.0 MB.
+System memory in use after: 70.2 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3316.
+Total: 22.415900 ms (FindLiveObjects: 16.556500 ms CreateObjectMapping: 0.425800 ms MarkObjects: 5.371900 ms  DeleteObjects: 0.059100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Default GameObject Tag: AndOneTag already registered
+Default GameObject Tag: OrOneTag already registered
+Default GameObject Tag: AndTwoTag already registered
+Default GameObject Tag: AndTwoGate already registered
+Default GameObject Tag: Pc_Ram already registered
+Default GameObject Tag: Pc_Motherboard already registered
+Default GameObject Tag: LedLamp1 already registered
+Default GameObject Tag: LedLamp2 already registered
+Default GameObject Tag: LedLamp3 already registered
+Default GameObject Tag: LedLamp4 already registered
+Default GameObject Tag: FinalLight already registered
+Default GameObject Tag: Pc_Processor already registered
+Default GameObject Tag: PC_Graphics already registered
+Default GameObject Tag: PC_Cooler already registered
+Default GameObject Tag: PC_Power already registered
+Default GameObject Tag: PC_HDD already registered
+Default GameObject Tag: RAM_Socket already registered
+Default GameObject Tag: HDD_Socket already registered
+Default GameObject Tag: Motherboard_Socket already registered
+Default GameObject Tag: Processor_Socket already registered
+Default GameObject Tag: Power_Socket already registered
+Default GameObject Tag: Graphics_Socket already registered
+Default GameObject Tag: Cooler_Socket already registered
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 18.50 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.0 MB.
+System memory in use after: 70.2 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3316.
+Total: 5.856500 ms (FindLiveObjects: 0.493700 ms CreateObjectMapping: 0.308700 ms MarkObjects: 4.915700 ms  DeleteObjects: 0.136500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1274.315436 seconds.
+  path: Assets/Scenes/LoginScene.unity
+  artifactKey: Guid(a169cf1305b4a8540b7ff9d3ad3c1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LoginScene.unity using Guid(a169cf1305b4a8540b7ff9d3ad3c1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44b903358ee4cdeed556174d2f519c1') in 0.053134 seconds 
+  Import took 0.065113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.419228 seconds.
+  path: Assets/Scenes/EndScene.unity
+  artifactKey: Guid(aac235a4eab2a3443bf246fc9d8473ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EndScene.unity using Guid(aac235a4eab2a3443bf246fc9d8473ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046420668114db368403a0fa75cba274') in 0.020894 seconds 
+  Import took 0.030787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.138498 seconds.
+  path: Assets/Scenes/EndScene.unity
+  artifactKey: Guid(aac235a4eab2a3443bf246fc9d8473ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EndScene.unity using Guid(aac235a4eab2a3443bf246fc9d8473ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb857c339e35c63460cc970c6f447f3') in 0.006598 seconds 
+  Import took 0.016064 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
